@@ -1,7 +1,7 @@
 import React from "react";
 
-const ColorfulMsg = () => {
-  return <p style={{ color: "green" }}>Reactは難しく無いっすね〜</p>;
+const ColorfulMsg = props => {
+  return <p style={{ color: props.color }}>{props.children}</p>;
 };
 
 export default ColorfulMsg;
