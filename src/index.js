@@ -12,6 +12,8 @@ const App = () => {
       <h2>Reactハンズオン！</h2>
       <p style={massageStyle}>Reactを使いこなしたいっすね〜</p>
       <Msg />
+      <ColorfulMsg color="blue">なんでかっていうと〜</ColorfulMsg>
+      <ColorfulMsg color="red">初心者に優しい</ColorfulMsg>
     </>
   );
 };
